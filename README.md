@@ -13,8 +13,8 @@ Users should be able to:
 ![Mobile](./design/Mobile-screenshot.png)
 
 ## Links
-- Solution URL: (https://your-solution-url.com)
-- Live Site URL: (https://your-live-site-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/3-column-preview-card-jCafm-rHfO)
+- Live Site URL: (https://bkfoe.github.io/3-column-card/)
 
 ## Author 
 - Website - [BKFOE](https://github.com/BKFOE)
