@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .grid-bg{
+        @apply flex flex-col py-12 px-12
+    }
+
+    .grid-heading{
+        @apply font-bold text-4xl text-neutral-lightGray uppercase font-main py-10
+    }
+
+    .grid-text{
+        @apply font-normal sm:pb-20 text-white/75 w-56 xxs:pb-7
+    }
+
+    .grid-button{
+        @apply bg-neutral-lightGray rounded-full font-normal w-36 h-12 hover:bg-transparent hover:text-white hover:border-white hover:border
+    }
+}

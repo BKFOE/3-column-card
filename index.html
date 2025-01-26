@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+  <link href="./src/output.css" rel="stylesheet">
+  <title>Frontend Mentor | 3-column preview card component</title>
+</head>
+<body class="bg-neutral-lightGray min-h-screen flex font-body items-center justify-center">
+<!-- Main Landmark -->
+
+  <main class="grid sm:grid-cols-3 w-full sm:max-w-4xl grid-cols-1 xxs:my-20 xxs:max-w-xs rounded-lg overflow-hidden shadow-lg" aria-labelledby="card-section">
+    <h1 id="card-section" class="sr-only">3-Column Preview Card Component</h1>
+
+    <!-- Section for Sedans-->
+    <section class="grid-bg bg-primary-brightOrange" aria-labelledby="sedans-heading">
+    <img src="./images/icon-sedans.svg" alt="sedan icon" class="h-10 w-16">
+    <h2 id="sedans-heading" class="grid-heading">Sedans</h2>
+    <p class="grid-text">Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
+    or on your next road trip.</p>
+    <button class="grid-button text-primary-brightOrange" aria-label="Learn more about sedans">Learn More</button>
+  </section>
+
+  <!-- Section for SUVs-->
+<section class="grid-bg bg-primary-darkCyan" aria-labelledby="suvs-heading">
+  <img src="./images/icon-suvs.svg" alt="suv icon" class="h-10 w-16">
+  <h2 id="suvs-heading" class="grid-heading">SUVs</h2>
+  <p class="grid-text">Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
+  and off-road adventures.</p>
+  <button class="grid-button text-primary-darkCyan" aria-label="Learn more about SUVs">Learn More</button>
+  </section>
+
+  <!-- Section for Luxury-->
+  <section class="grid-bg bg-primary-veryDarkCyan" aria-labelledby="luxury-heading">
+    <img src="./images/icon-luxury.svg" alt="convertible sports car icon" class="h-10 w-16">
+    <h2 id="luxury-heading" class="grid-heading">Luxury</h1>
+    <p class="grid-text">Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
+    rental and arrive in style.</p>
+    <button class="grid-button text-primary-veryDarkCyan" aria-label="Learn more about Luxury cars">Learn More</button>
+    </section>
+  </main>
+</body>
+</html>
