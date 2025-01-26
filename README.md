@@ -17,5 +17,5 @@ Users should be able to:
 - Live Site URL: (https://your-live-site-url.com)
 
 ## Author 
-- Website - [BKFOE]()
-- Frontend Mentor - [@BKFOE]()
+- Website - [BKFOE](https://github.com/BKFOE)
+- Frontend Mentor - [@BKFOE](https://www.frontendmentor.io/profile/BKFOE)
